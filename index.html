@@ -10,63 +10,63 @@
     }
 
     .calc-button {
-      width: 50px; /* Adjusted width for all buttons */
-      height: 55px;
-      border: 1px solid white;
-      border-radius: 3px;
-      padding: 20px;
+      width:50px;
+      height:55px;
+      border:1px solid white;
+      border-radius:3px;
+      padding:20px;
       background-color: #dce0e5;
-      margin: 5px;
-      font-weight: bold;
-      font-size: 15px;
+      margin:5px;
+      font-weight:bold;
+      font-size:15px;
     }
 
     #equal {
-      width: 100px; /* Adjusted width for the "=" button to take up 2/4 of the space */
-      height: 55px;
-      border: 1px solid white;
-      border-radius: 3px;
-      padding: 20px;
+      width:100px;
+      height:55px;
+      border:1px solid white;
+      border-radius:3px;
+      padding:20px;
       background-color: #dce0e5;
-      margin: 5px;
-      font-weight: bold;
-      font-size: 15px;
+      margin:5px;
+      font-weight:bold;
+      font-size:15px;
     }
 
     #calc {
-      width: 250px;
-      height: 35px;
-      border: 3px solid #dce0e5;
-      border-radius: 5px;
-      padding: 20px;
-      margin: auto;
-      background-color: transparent;
+      width:250px;
+      height:35px;
+      border:3px solid #dce0e5;
+      border-radius:5px;
+      padding:20px;
+      margin:auto;
+      background-color:transparent;
     }
 
     .formstyle {
       background-image: url("white.jpg");
-      background-size: cover;
-      width: 300px;
-      height: 500px;
-      margin: auto;
-      border: 5px solid #dce0e5;
-      border-radius: 2px;
-      padding: 20px;
-      text-align: center;
+      background-size:cover;
+      width:300px;
+      height:500px;
+      margin:auto;
+      border:5px solid #dce0e5;
+      border-radius:2px;
+      padding:20px;
+      text-align:center;
     }
 
     input {
-      width: 30px;
-      height: 40px;
-      opacity: 1;
+      width:30px;
+      height:40px;
+      opacity:1;
       background-color: #dce0e5;
-      color: black;
-      border: 1px solid white;
-      border-radius: 5px;
-      padding: 26px;
-      margin: 5px;
-      font-weight: bold;
-      font-size: 15px;
+      color:black;
+      border:1px solid white;
+      border-radius:5px;
+      padding:26px;
+      margin:5px;
+      font-weight:bold;
+      font-size:15px;
     }
   </style>
 
@@ -101,7 +101,6 @@
       <input class="calc-button" type="button" value="/" onclick="form1.answer.value += '/'">
       <br><br>
 
-      <!-- Adjusted width for the "=" button to take up 2/4 of the space -->
       <input id="equal" type="button" value="=" onclick="form1.answer.value = eval(form1.answer.value)">
       <input class="calc-button" type="button" value="⌫" onclick="form1.answer.value = form1.answer.value.slice(0, -1)">
       <input class="calc-button" type="button" value="%" onclick="form1.answer.value += '%'">
